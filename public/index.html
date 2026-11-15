@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SaathiCare — an elder-first care circle for medicines, appointments and family peace of mind." />
+    <meta name="theme-color" content="#0f6e64" />
+    <title>SaathiCare</title>
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="#/today" aria-label="SaathiCare home">
+          <img src="/icon.svg" alt="" width="36" height="36" />
+          <span>SaathiCare</span>
+        </a>
+        <div class="a11y-controls" role="group" aria-label="Display settings">
+          <button type="button" class="chip" id="text-size">Text size: Normal</button>
+          <button type="button" class="chip" id="contrast" aria-pressed="false">High contrast</button>
+        </div>
+      </div>
+      <nav class="container main-nav" id="main-nav" aria-label="Main" hidden>
+        <a href="#/today" data-route="today">Today</a>
+        <a href="#/medications" data-route="medications">Medicines</a>
+        <a href="#/appointments" data-route="appointments">Appointments</a>
+        <a href="#/insights" data-route="insights">Insights</a>
+        <a href="#/circle" data-route="circle">Care circle</a>
+      </nav>
+    </header>
+
+    <main id="main" class="container" tabindex="-1">
+      <noscript><p>SaathiCare needs JavaScript to run.</p></noscript>
+      <p class="loading">Loading…</p>
+    </main>
+
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <div id="alert-region" class="sr-only" role="alert" aria-live="assertive"></div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>SaathiCare helps families coordinate care. It does not replace advice from a doctor or pharmacist.</p>
+      </div>
+    </footer>
+  </body>
+</html>

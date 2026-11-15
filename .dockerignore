@@ -1,0 +1,11 @@
+.git
+node_modules
+tests
+coverage
+.env
+.env.*
+*.md
+eslint.config.js
+.editorconfig
+.prettierrc.json
+Dockerfile

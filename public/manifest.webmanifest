@@ -1,0 +1,10 @@
+{
+  "name": "SaathiCare",
+  "short_name": "SaathiCare",
+  "description": "Elder-first care circle for medicines and appointments.",
+  "start_url": "/#/today",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#0f6e64",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

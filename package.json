@@ -1,0 +1,23 @@
+{
+  "name": "saathicare",
+  "version": "1.0.0",
+  "description": "Elder-first care circle: shared medication schedules, adherence tracking, escalating email reminders and Gemini-powered care insights.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "DEMO_SEED=true node --watch server/index.js",
+    "test": "node --test --test-reporter=spec 'tests/**/*.test.js'",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-exclude='tests/**' 'tests/**/*.test.js'",
+    "lint": "eslint .",
+    "check": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SaathiCare">
+  <rect width="64" height="64" rx="16" fill="#0f6e64"/>
+  <path d="M32 50s-15-9.2-15-21a8.6 8.6 0 0 1 15-5.8A8.6 8.6 0 0 1 47 29c0 11.8-15 21-15 21z" fill="#fff4e6"/>
+  <path d="M26 31h12M32 25v12" stroke="#0f6e64" stroke-width="4" stroke-linecap="round"/>
+</svg>
